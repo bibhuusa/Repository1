@@ -47,7 +47,7 @@ public class Bns_resgistrationTest {
     
 	driver.findElement(By.xpath("//*[@id=\"content\"]/article/div/div/div/div/section[1]/div/div/div/div/div/div/div/div/div[2]/input[7]")).click();
 	driver.findElement(By.name("SSN")).click();
-	
+	System.out.println("This is changed");
 }
     // close the browser
    @AfterTest
